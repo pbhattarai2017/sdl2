@@ -12,3 +12,7 @@ $(OBJS)/$(NAME).o: $(SRCS)/$(NAME).c
 
 run:
 	$(BUILDS)/out
+
+prep:
+	mkdir -p $(BUILDS)
+	mkdir -p $(OBJS)
