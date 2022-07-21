@@ -2,15 +2,15 @@
 
 This repository contains example projects of SDL2. Each example is a single file c program which can be invoked after the following preparations.
 
-## Setup custom 'maker'
+### Setup custom 'maker'
 > $ `gcc` -o maker maker.c
 
 > $ `alias` maker=./maker
 
-## Execute the project
+### Execute the project
 Initially, run `make prep` to setup project structure
 
-Then, use `maker` alias to make file 'main.c'
+Then, use `maker` alias to make file, for example; main.c
 > $ maker main
 
 To execute the file
